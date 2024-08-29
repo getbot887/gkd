@@ -23,6 +23,7 @@ ipp_info=$(curl -A 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 echo "$current_time - $ipp_info" >> /data/data/com.termux/files/home/wanipp.txt
 
 
+curl -A 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36' myip.ipip.net >> /data/data/com.termux/files/home/wanipp.txt
 
 
 echo "IP信息已插入到ip.txt文件的开头。"
